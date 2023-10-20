@@ -6,8 +6,9 @@ const actualPercent = new Number(100)
 
 let decimalNumber = 100.39344
 console.log(decimalNumber.toFixed(2));
+console.log(decimalNumber.toPrecision(4));
 
-let readableNumber = 1000000.
+let readableNumber = 1000000
 console.log(readableNumber.toLocaleString());
 console.log(readableNumber.toLocaleString('en-IN'));
 
